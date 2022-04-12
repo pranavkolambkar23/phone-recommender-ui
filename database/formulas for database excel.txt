@@ -1,0 +1,84 @@
+we will follow top-down approach so conditions will follow from top to down
+
+1)batteryPoints = 12 points total
+
+
+battery cap range = 100 - 8000
+charging speed = 5 W - 65 W
+
+* if data >= 15 W then batteryPoints = batteryPoints + 1
+* 18 W -2
+* 24 W -2
+* 30 W -3
+* 40 W -4
+* 65 W -5
+* 120 W - 6
+
+* if data <=1000 then batteryPoints = batteryPoints + 1
+* <=2000 - 2
+* <=3000 - 3
+* <=4000 - 4
+* <=5000 - 5
+* <=6000 - 6
+* >=7000 - 7
+
+
+2)ram_storagePoints = 11 points total
+
+* if data >= 3 GB then ram_storagePoints = ram_storagePoints + 1
+* 4GB = 2
+* 6GB = 3
+* 8GB = 4
+* 12GB = 5
+
+* if data >= 16 GB then ram_storagePoints = ram_storagePoints + 1
+* 32 GB = 2
+* 64 GB = 3
+* 128 GB = 4
+* 256 GB = 5
+* 512 GB = 6
+
+
+3)displayPoints = 8 points total 
+
+* if data  = OLED, then displayPoints = displayPoints + 4
+IPS LCD = 3
+TFT = 2
+
+* if data <= 144hz then displayPoints = displayPoints + 4
+120hz >= 3
+90hz >= 2
+60hz >=1
+
+
+4)socPoints = 20 points total
+
+based on antutu score
+
+* if data >= 1,000,000 then socPoints = socPoints + 15
+* >= 950,000 - 15
+* >= 900,000 - 14
+* >= 850,000 - 13
+* >= 800,000 - 13
+* >= 750,000 - 13
+* >= 700,000 - 12
+* >= 650,000 - 12
+* >= 600,000 - 12
+* >= 550,000 - 11
+* >= 500,000 - 10
+* >= 450,000 - 9
+* >= 400,000 - 8
+* >= 350,000 - 7
+* >= 300,000 - 6
+* >= 250,000 - 5
+* >= 200,000 - 4
+* >= 150,000 - 3
+* >= 100,000 - 2
+* >= 50,000 - 1
+
+
+5) speakerPoints = 6 points total
+
+* if data = dual/stereo speaker & dolby atoms, then speakerPoints = speakerPoints + 6
+* dual/stereo speaker = 4
+* single speaker = 2
