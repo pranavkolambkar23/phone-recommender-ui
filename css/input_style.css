@@ -186,6 +186,19 @@ b{
     color: white;
 }
 
+.priority btn-grp{
+	text-align: center;
+	justify-content: center;
+	align-self: center;
+}
+
+.flex-1{
+	margin-right: 5px;
+	border-radius: 0;
+	border: 0;
+	background-color: #d34747;
+}
+
 /*footer starts here*/
 
 .footer {
